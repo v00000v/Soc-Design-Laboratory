@@ -1,0 +1,38 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Wed Nov  8 08:39:35 2023
+# Process ID: 5607
+# Current directory: /home/ubuntu/Downloads/SoC/course-lab_4.0-2022.1/lab-exmem_fir/vivado_4-1/project_1
+# Command line: vivado
+# Log file: /home/ubuntu/Downloads/SoC/course-lab_4.0-2022.1/lab-exmem_fir/vivado_4-1/project_1/vivado.log
+# Journal file: /home/ubuntu/Downloads/SoC/course-lab_4.0-2022.1/lab-exmem_fir/vivado_4-1/project_1/vivado.jou
+# Running On: ubuntu2004, OS: Linux, CPU Frequency: 2496.000 MHz, CPU Physical cores: 6, Host memory: 10424 MB
+#-----------------------------------------------------------
+start_gui
+open_project /home/ubuntu/Downloads/SoC/course-lab_4.0-2022.1/lab-exmem_fir/vivado_4-1/project_1/project_1.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 5
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+reset_run synth_1
+launch_runs synth_1 -jobs 5
+wait_on_run synth_1
+close_design
+open_run synth_1 -name synth_1
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1(1) -file /home/ubuntu/Downloads/SoC/course-lab_4.0-2022.1/lab-exmem_fir/vivado_4-1/project_1/timing_report.log
+copy_run -name synth_1_copy_1 [get_runs synth_1] 
+set_property STEPS.SYNTH_DESIGN.ARGS.DIRECTIVE AreaOptimized_high [get_runs synth_1]
+reset_run synth_1
+launch_runs synth_1 -jobs 5
+wait_on_run synth_1
+close_design
+copy_run -name synth_1_copy_2 [get_runs synth_1] 
+set_property STEPS.SYNTH_DESIGN.ARGS.DIRECTIVE Default [get_runs synth_1]
+reset_run synth_1
+launch_runs synth_1 -jobs 5
+wait_on_run synth_1
