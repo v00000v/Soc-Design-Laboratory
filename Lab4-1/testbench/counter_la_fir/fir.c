@@ -16,11 +16,13 @@ int __attribute__((section(".mprjram"))) filter(int filter_in)
 	int filter_out = 0;
 
 	// Buffer Setup
-	inputbuffer[0] = filter_in; // New value in
+	
 	for (int k = N - 1; k > 0; k--)
 	{
 		inputbuffer[k] = inputbuffer[k - 1]; // Old values shift
 	}
+
+	inputbuffer[0] = filter_in; // New value in
 
 	// FIR Calculation
 	for (int h = 0; h < N; h++)
