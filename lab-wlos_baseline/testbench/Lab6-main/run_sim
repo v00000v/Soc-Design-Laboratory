@@ -1,0 +1,24 @@
+rm -f kuart.hex
+
+riscv32-unknown-elf-gcc -Wl,--no-warn-rwx-segments -g \
+	--save-temps \
+	-Xlinker -Map=output.map \
+	-I../../firmware \
+	-march=rv32i -mabi=ilp32 -D__vexriscv__ \
+	-Wl,-Bstatic,-T,../../firmware/sections.lds,--strip-discarded \
+	-ffreestanding -nostartfiles -o kuart.elf ../../firmware/crt0_vex.S ../../firmware/isr.c kuart.c kcounter_la_uart.c
+# -nostartfiles	
+riscv32-unknown-elf-objcopy -O verilog kuart.elf kuart.hex
+riscv32-unknown-elf-objdump -D kuart.elf > kuart.out
+
+# to fix flash base address
+sed -ie 's/@10/@00/g' kuart.hex
+
+iverilog -Ttyp -DFUNCTIONAL -DSIM -DUNIT_DELAY=#1 \
+	-f./include.rtl.list -o kuart.vvp kuart_tb.v 
+
+#vvp -l simulation.log kuart.vvp
+vvp kuart.vvp
+rm -f kuart.vvp kuart.elf kuart.hexe
+
+#-march=rv32i -mabi=ilp32 -D__vexriscv__ -DUSER_PROJ_IRQ0_EN \

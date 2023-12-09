@@ -1,0 +1,109 @@
+ ./run_sim
+Reading kuart.hex
+kuart.hex loaded into memory
+Memory 5 bytes = 0x6f 0x00 0x00 0x0b 0x13
+VCD info: dumpfile uart.vcd opened for output.
+Firmware started
+FIR started
+tx data bit index 0: 1
+tx data bit index 1: 1
+tx data bit index 2: 1
+tx data bit index 3: 1
+tx data bit index 4: 0
+tx data bit index 5: 0
+tx data bit index 6: 0
+tx data bit index 7: 0
+tx data bit index 0: 1
+tx data bit index 1: 1
+tx data bit index 2: 1
+tx data bit index 3: 1
+tx data bit index 4: 0
+tx data bit index 5: 0
+tx data bit index 6: 0
+tx data bit index 7: 0
+tx data bit index 0: 1
+tx data bit index 1: 1
+tx data bit index 2: 1
+tx data bit index 3: 1
+tx data bit index 4: 0
+tx data bit index 5: 0
+tx data bit index 6: 0
+tx data bit index 7: 0
+Call function fir() in User Project BRAM (mprjram, 0x38000000) return value passed, 0x0000
+Call function fir() in User Project BRAM (mprjram, 0x38000000) return value passed, 0xfff6
+Call function fir() in User Project BRAM (mprjram, 0x38000000) return value passed, 0xffe3
+Call function fir() in User Project BRAM (mprjram, 0x38000000) return value passed, 0x0023
+tx data bit index 0: 1
+tx data bit index 1: 1
+FIR done
+Matrix multiplier started
+tx data bit index 2: 1
+tx data bit index 3: 1
+tx data bit index 4: 0
+tx data bit index 5: 0
+tx data bit index 6: 0
+tx data bit index 7: 0
+tx data bit index 0: 1
+tx data bit index 1: 1
+tx data bit index 2: 1
+tx data bit index 3: 1
+tx data bit index 4: 0
+tx data bit index 5: 0
+tx data bit index 6: 0
+tx data bit index 7: 0
+tx data bit index 0: 1
+tx data bit index 1: 1
+tx data bit index 2: 1
+Call function matmul() in User Project BRAM (mprjram, 0x38000000) return value passed, 0x003e
+Call function matmul() in User Project BRAM (mprjram, 0x38000000) return value passed, 0x0044
+Call function matmul() in User Project BRAM (mprjram, 0x38000000) return value passed, 0x004a
+Call function matmul() in User Project BRAM (mprjram, 0x38000000) return value passed, 0x0050
+Matrix multiplier done
+Quick Sort started
+tx data bit index 3: 1
+tx data bit index 4: 0
+tx data bit index 5: 0
+tx data bit index 6: 0
+tx data bit index 7: 0
+tx data bit index 0: 1
+tx data bit index 1: 1
+tx data bit index 2: 1
+tx data bit index 3: 1
+tx data bit index 4: 0
+Call function qsort() in User Project BRAM (mprjram, 0x38000000) return value passed, 0x0028
+tx data bit index 5: 0
+Call function qsort() in User Project BRAM (mprjram, 0x38000000) return value passed, 0x037d
+Call function qsortl() in User Project BRAM (mprjram, 0x38000000) return value passed, 0x09ed
+Call function qsort() in User Project BRAM (mprjram, 0x38000000) return value passed, 0x0a6d
+Quick sort done
+tx data bit index 6: 0
+tx data bit index 7: 0
+tx complete 1
+Firmware ended
+UART started
+tx data bit index 0: 1
+tx data bit index 1: 0
+tx data bit index 2: 1
+rx data bit index 0: 0
+tx data bit index 3: 1
+rx data bit index 1: 0
+tx data bit index 4: 1
+rx data bit index 2: 0
+tx data bit index 5: 1
+rx data bit index 3: 0
+tx data bit index 6: 0
+rx data bit index 4: 0
+tx data bit index 7: 0
+rx data bit index 5: 0
+tx complete 2
+rx data bit index 6: 0
+rx data bit index 7: 0
+recevied word   0
+recevied word   0
+recevied word   0
+recevied word   0
+recevied word   0
+recevied word   0
+recevied word   0
+UART done
+LA Test passed

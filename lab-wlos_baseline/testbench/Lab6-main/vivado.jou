@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Sat Dec  9 07:38:53 2023
+# Process ID: 6418
+# Current directory: /home/ubuntu/Downloads/SoC/course-lab_6-2022.1/lab-wlos_baseline/testbench/Lab6-main
+# Command line: vivado
+# Log file: /home/ubuntu/Downloads/SoC/course-lab_6-2022.1/lab-wlos_baseline/testbench/Lab6-main/vivado.log
+# Journal file: /home/ubuntu/Downloads/SoC/course-lab_6-2022.1/lab-wlos_baseline/testbench/Lab6-main/vivado.jou
+# Running On: ubuntu2004, OS: Linux, CPU Frequency: 2495.998 MHz, CPU Physical cores: 6, Host memory: 10424 MB
+#-----------------------------------------------------------
+start_gui
+open_project /home/ubuntu/Downloads/SoC/course-lab_6-2022.1/lab-wlos_baseline/vivado/vvd_caravel_fpga/vvd_caravel_fpga.xpr
+update_compile_order -fileset sources_1
