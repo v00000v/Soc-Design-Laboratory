@@ -1,0 +1,102 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Fri Dec 15 14:33:19 2023
+[*]
+[dumpfile] "/home/ubuntu/Downloads/SoC/lab-sdram/testbench/counter_la/counter_la.vcd"
+[dumpfile_mtime] "Fri Dec 15 14:31:04 2023"
+[dumpfile_size] 27894544
+[savefile] "/home/ubuntu/Downloads/SoC/lab-sdram/testbench/counter_la/waveform.gtkw"
+[timestart] 1104684400
+[size] 1715 913
+[pos] -1 -1
+*-16.632057 1104837500 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] counter_la_tb.
+[treeopen] counter_la_tb.uut.
+[treeopen] counter_la_tb.uut.mprj.
+[treeopen] counter_la_tb.uut.mprj.mprj.
+[treeopen] counter_la_tb.uut.padframe.mprj_pads.
+[treeopen] counter_la_tb.uut.soc.core.
+[treeopen] counter_la_tb.uut.soc.core.VexRiscv.
+[sst_width] 233
+[signals_width] 249
+[sst_expanded] 1
+[sst_vpaned_height] 253
+@22
+counter_la_tb.checkbits[15:0]
+counter_la_tb.mprj_io[37:0]
+@200
+-mprj
+@28
+counter_la_tb.uut.mprj.mprj.clk
+counter_la_tb.uut.mprj.mprj.valid
+counter_la_tb.uut.mprj.mprj.wbs_ack_o
+counter_la_tb.uut.mprj.mprj.wbs_we_i
+counter_la_tb.uut.mprj.mprj.wbs_cyc_i
+counter_la_tb.uut.mprj.mprj.wbs_stb_i
+@22
+counter_la_tb.uut.mprj.mprj.wbs_adr_i[31:0]
+counter_la_tb.uut.mprj.mprj.wbs_dat_i[31:0]
+counter_la_tb.uut.mprj.mprj.wbs_dat_o[31:0]
+@200
+-User Bram
+@28
+counter_la_tb.uut.mprj.mprj.user_sdram_controller.clk
+counter_la_tb.uut.mprj.mprj.user_sdram_controller.busy
+counter_la_tb.uut.mprj.mprj.user_sdram_controller.out_valid_d
+counter_la_tb.uut.mprj.mprj.wbs_we_i
+counter_la_tb.uut.mprj.mprj.user_sdram_controller.in_valid
+@22
+counter_la_tb.uut.mprj.mprj.user_sdram_controller.state_q[3:0]
+@24
+counter_la_tb.uut.mprj.mprj.user_sdram_controller.delay_ctr_q[15:0]
+@28
+counter_la_tb.uut.mprj.mprj.user_sdram_controller.out_valid
+counter_la_tb.uut.mprj.mprj.user_sdram_controller.out_valid_d
+counter_la_tb.uut.mprj.mprj.ctrl_in_valid
+counter_la_tb.uut.mprj.mprj.ctrl_in_valid_q
+counter_la_tb.uut.mprj.mprj.valid
+@200
+-Addr
+@28
+counter_la_tb.uut.mprj.mprj.user_sdram_controller.ready_q
+counter_la_tb.uut.mprj.mprj.user_sdram_controller.ready_d
+@22
+counter_la_tb.uut.mprj.mprj.user_sdram_controller.addr[22:0]
+counter_la_tb.uut.mprj.mprj.user_sdram_controller.addr_q[22:0]
+counter_la_tb.uut.mprj.mprj.user_sdram_controller.addr_d[22:0]
+@200
+-Data
+@28
+counter_la_tb.uut.mprj.mprj.user_sdram_controller.ready_q
+counter_la_tb.uut.mprj.mprj.user_sdram_controller.ready_d
+@22
+counter_la_tb.uut.mprj.mprj.user_sdram_controller.saved_data_q[31:0]
+counter_la_tb.uut.mprj.mprj.user_sdram_controller.saved_data_d[31:0]
+counter_la_tb.uut.mprj.mprj.user_sdram_controller.data_in[31:0]
+counter_la_tb.uut.mprj.mprj.user_sdram_controller.saved_data_d[31:0]
+counter_la_tb.uut.mprj.mprj.user_sdram_controller.data_d[31:0]
+counter_la_tb.uut.mprj.mprj.user_sdram_controller.data_q[31:0]
+@200
+-FSM
+@28
+counter_la_tb.uut.mprj.mprj.user_sdram_controller.clk
+@22
+counter_la_tb.uut.mprj.mprj.user_sdram_controller.state_q[3:0]
+@28
+counter_la_tb.uut.mprj.mprj.user_sdram_controller.refresh_flag_q
+counter_la_tb.uut.mprj.mprj.user_sdram_controller.ready_q
+counter_la_tb.uut.mprj.mprj.user_sdram_controller.ready_d
+@200
+-Valid
+@28
+counter_la_tb.uut.mprj.mprj.user_sdram_controller.busy
+counter_la_tb.uut.mprj.mprj.ctrl_in_valid
+counter_la_tb.uut.mprj.mprj.ctrl_in_valid_q
+counter_la_tb.uut.mprj.mprj.ctrl_out_valid
+@29
+counter_la_tb.uut.mprj.mprj.user_sdram_controller.out_valid_d
+@28
+counter_la_tb.uut.mprj.mprj.ctrl_busy
+counter_la_tb.uut.mprj.mprj.valid
+[pattern_trace] 1
+[pattern_trace] 0
